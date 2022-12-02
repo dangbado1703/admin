@@ -1,0 +1,18 @@
+@import "../../styles/root.scss";
+
+.login {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/image-beautiful.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include display-flex(center, center, "");
+  ._register {
+    color: blue;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  & > div:first-child {
+    width: 500px;
+  }
+}

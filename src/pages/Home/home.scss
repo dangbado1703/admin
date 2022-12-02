@@ -1,0 +1,7 @@
+@import "../../styles/root.scss";
+.home {
+  font-size: 1.6rem;
+}
+.footer-modal {
+  @include display-flex(flex-end, "", "");
+}

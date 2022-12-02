@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+:root {
+  --color-search: #87d068;
+  --color-delete: #ff4d4f;
+  font-size: 62.5%;
+}
+@mixin display-flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}

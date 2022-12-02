@@ -1,0 +1,13 @@
+@import "../../styles/root.scss";
+
+.register {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/image-beautiful.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include display-flex(center, center, "");
+  & > div:first-child {
+    width: 500px;
+  }
+}
