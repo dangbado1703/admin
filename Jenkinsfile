@@ -3,7 +3,8 @@ pipeline {
     stages {
         state('Clone') {
             steps {
-                git 'https://github.com/dangbado1703/admin.git'
+                // git 'https://github.com/dangbado1703/admin.git'
+                echo 'hello world'
             }
         }
     }
