@@ -13,7 +13,7 @@ const Category = () => {
   const [size, setSize] = useState(10);
   const dispatch = useAppDispatch();
   useEffect(() => {
-    dispatch(searchCategory({ ...searchValue, page, size }));
+    dispatch(searchCategory({ ...searchValue, page, size: size }));
   }, [searchValue, page, size, dispatch]);
   return (
     <div>
